@@ -6,5 +6,6 @@ using System.Web;
 namespace StoreKom.Models
 {
     public class Product
+    {
     }
 }
