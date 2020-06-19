@@ -12,7 +12,7 @@ namespace StoreKom
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
+            //http:localhost:1234/Home/About
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
