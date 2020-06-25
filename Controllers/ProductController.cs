@@ -60,6 +60,7 @@ namespace StoreKom.Controllers
         // GET: Product/Edit/5
         public ActionResult Edit(int id)
         {
+            var product = _products.Single(p => p.Id == id);
             return View();
         }
 
