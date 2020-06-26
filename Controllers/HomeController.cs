@@ -26,5 +26,19 @@ namespace StoreKom.Controllers
 
             return View();
         }
+
+        public ActionResult Configure()
+        {
+            ViewBag.Message = "Konfigurator";
+
+            return View();
+        }
+
+        public ActionResult Produkty()
+        {
+            ViewBag.Message = "Produkty";
+
+            return View();
+        }
     }
 }
